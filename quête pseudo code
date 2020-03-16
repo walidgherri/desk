@@ -1,0 +1,23 @@
+###
+Demander à l'utilisateur un nombre.
+•
+Afficher le texte "Bienvenue à la wild" autant de fois que le nombre saisi.
+•
+Vous posterez le lien de votre Gist.
+###
+
+
+
+Variables
+  nombreSaisi
+  
+
+DEBUT
+
+  Afficher = "Choississez un nombre"
+    Lire nombreSaisi
+  Pour i de 0 à nombreSaisi
+    Afficher = "Bienvenue à la Wild [Retour à la ligne]" 
+  Fin Pour  
+
+FIN
